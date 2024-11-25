@@ -4,7 +4,7 @@ int main() {
     int a, b, menu;
     float result;
 
-    // Yêu c?u ngu?i dùng nh?p vào 2 s? b?t k?
+    // YÃªu c?u ngu?i dÃ¹ng nh?p vÃ o 2 s? b?t k?
     printf("Nhap so thu nhat: ");
     scanf("%d", &a);
     printf("Nhap so thu hai: ");
@@ -20,8 +20,6 @@ int main() {
         printf("5. Thoat\n");
         printf("Lua chon cua ban: ");
         scanf("%d", &menu);
-
-        // Th?c hi?n ch?c nang tuong ?ng v?i l?a ch?n c?a ngu?i dùng
         switch (menu) {
             case 1:
                 result = a + b;
